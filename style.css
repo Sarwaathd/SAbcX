@@ -3,6 +3,7 @@
    0px;
     padding: 
    0px;
+   
   
 }
 body {
@@ -88,13 +89,18 @@ a {
 #aboutPage {
     background-color: black;
     color: #333;
-    transform: translateY(100%); 
+    transform: translateY(100%); /* Hidden by default */
+    
 }
 
 #contentPage {
     background-color: white;
     color: #333;
     transform: translateY(100%); /* Hidden by default */
+    height: 500px; /* Fixed height */
+  overflow-y: scroll;
+  background-color:black;/* Enable vertical scrolling */
+
 }
 
   
@@ -188,6 +194,8 @@ font-size: 2rem;
   height:724px;
   width:384px;
   border:2px solid black;
-  background-image:url('./a.gif ');
+  background-image:url('/a.gif ');
   
 }
+
+    
