@@ -88,10 +88,7 @@ a {
 #aboutPage {
     background-color: black;
     color: #333;
-    transform: translateY(100%); /* Hidden by default */
-    height: 500px; /* Fixed height */
-  overflow-y: scroll;
-  background-color:black;/* Enable vertical scrolling */
+    transform: translateY(100%); 
 }
 
 #contentPage {
